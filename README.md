@@ -4,4 +4,4 @@ Simple game created from a [tutorial](https://docs.godotengine.org/en/stable/get
 
 ## progress
 
-https://docs.godotengine.org/en/stable/getting_started/step_by_step/your_first_game.html#main-scene
+https://docs.godotengine.org/en/stable/getting_started/step_by_step/your_first_game.html#connecting-hud-to-main
