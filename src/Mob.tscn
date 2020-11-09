@@ -15,14 +15,14 @@ animations = [ {
 "name": "fly",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 1 ), ExtResource( 4 ) ],
-"loop": true,
-"name": "swim",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 5 ), ExtResource( 3 ) ],
 "loop": true,
 "name": "walk",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 1 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "swim",
 "speed": 5.0
 } ]
 
@@ -30,7 +30,9 @@ animations = [ {
 radius = 34.2087
 height = 15.2496
 
-[node name="Mob" type="RigidBody2D"]
+[node name="Mob" type="RigidBody2D" groups=[
+"mobs",
+]]
 position = Vector2( 0, 0.353561 )
 collision_mask = 0
 script = ExtResource( 7 )
